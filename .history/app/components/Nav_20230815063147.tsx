@@ -1,0 +1,21 @@
+import { UserButton } from '@clerk/nextjs'
+import React from 'react'
+
+function Nav() {
+  return (
+    <div>
+        <div>
+            
+            <h1>P <span>ride</span></h1>
+            <h2>Home</h2>
+            <h2>History</h2>
+            <h2>Help</h2>
+        </div>
+        <div>
+            <UserButton/>
+        </div>
+    </div>
+  )
+}
+
+export default Nav
